@@ -1,0 +1,11 @@
+Name,Vorname,Alter,Stadt,Land,E-Mail,Telefon,Position,Abteilung,Eintrittsdatum
+Müller,Thomas,35,Berlin,Deutschland,thomas.mueller@example.com,+49 30 12345678,Senior Developer,IT,2020-03-15
+Schmidt,Anna,28,München,Deutschland,anna.schmidt@example.com,+49 89 87654321,Marketing Manager,Marketing,2021-06-01
+Schneider,Michael,42,Hamburg,Deutschland,michael.schneider@example.com,+49 40 11223344,Projektleiter,Projektmanagement,2019-01-10
+Fischer,Julia,31,Köln,Deutschland,julia.fischer@example.com,+49 221 55667788,HR Specialist,Personal,2022-02-20
+Weber,Stefan,39,Frankfurt,Deutschland,stefan.weber@example.com,+49 69 99887766,Financial Analyst,Finanzen,2018-11-05
+Meyer,Lisa,26,Stuttgart,Deutschland,lisa.meyer@example.com,+49 711 44556677,Junior Developer,IT,2023-01-15
+Wagner,Markus,45,Düsseldorf,Deutschland,markus.wagner@example.com,+49 211 22334455,Sales Director,Vertrieb,2017-08-22
+Becker,Sarah,33,Leipzig,Deutschland,sarah.becker@example.com,+49 341 66778899,Product Owner,Produktmanagement,2020-09-30
+Schulz,Patrick,37,Dortmund,Deutschland,patrick.schulz@example.com,+49 231 33445566,DevOps Engineer,IT,2021-04-12
+Hoffmann,Sandra,29,Essen,Deutschland,sandra.hoffmann@example.com,+49 201 77889900,UX Designer,Design,2022-07-18
