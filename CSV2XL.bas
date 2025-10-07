@@ -33,7 +33,7 @@ Sub ImportCSVWithPowerQuery()
 
     ' Neues Arbeitsblatt erstellen
     Set ws = ThisWorkbook.Worksheets.Add
-    ws.Name = "CSV Import " & Format(Now, "hh:mm:ss")
+    ws.Name = "CSV Import " & Format(Now, "hh-mm-ss")
 
     ' Power Query erstellen (M-Code)
     Dim mCode As String
@@ -134,7 +134,7 @@ Sub ImportCSVDirect()
 
     ' Neues Arbeitsblatt erstellen
     Set ws = ThisWorkbook.Worksheets.Add
-    ws.Name = "CSV Import " & Format(Now, "hh:mm:ss")
+    ws.Name = "CSV Import " & Format(Now, "hh-mm-ss")
 
     ' CSV importieren
     Set qt = ws.QueryTables.Add( _
