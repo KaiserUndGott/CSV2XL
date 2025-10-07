@@ -1,0 +1,35 @@
+# Excel temporary files
+~$*.xls*
+~$*.xlsm
+*.tmp
+
+# Excel backup files
+*.xlk
+
+# Mac-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VBA Project files (binary)
+*.vbw
+
+# Office temporary files
+~*.pptx
+~*.docx
+
+# IDE files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Personal/Test files
+test*.csv
+sample*.csv
