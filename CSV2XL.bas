@@ -79,7 +79,7 @@ Sub ImportCSVWithPowerQuery()
 
     ' Tabellenstil anwenden: "Dunkelblaugrün, Mittel 2"
     ' TableStyleMedium2 entspricht "Dunkelblaugrün, Mittel 2"
-    tbl.TableStyle = "TableStyleMedium10"
+    tbl.TableStyle = "TableStyleMedium16"
 
     ' Leere Spalten identifizieren und löschen
     lastCol = tbl.Range.Columns.Count
@@ -156,7 +156,7 @@ Sub ImportCSVDirect()
 
     ' Als Tabelle formatieren
     Set tbl = ws.ListObjects.Add(xlSrcRange, ws.UsedRange, , xlYes)
-    tbl.TableStyle = "TableStyleMedium10"
+    tbl.TableStyle = "TableStyleMedium16"
 
     ' Leere Spalten löschen
     lastCol = tbl.Range.Columns.Count
