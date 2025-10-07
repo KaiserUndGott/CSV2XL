@@ -20,9 +20,15 @@ Sub ImportCSVWithPowerQuery()
     On Error GoTo ErrorHandler
 
     ' CSV-Datei auswählen
-    csvFilePath = Application.GetOpenFilename( _
-        FileFilter:="CSV Files (*.csv), *.csv", _
-        Title:="CSV-Datei auswählen")
+    #If Mac Then
+        csvFilePath = Application.GetOpenFilename( _
+            FileFilter:="CSV Files,*.csv", _
+            Title:="CSV-Datei auswählen")
+    #Else
+        csvFilePath = Application.GetOpenFilename( _
+            FileFilter:="CSV Files (*.csv), *.csv", _
+            Title:="CSV-Datei auswählen")
+    #End If
 
     ' Abbruch wenn keine Datei gewählt wurde
     If csvFilePath = "False" Then Exit Sub
@@ -126,9 +132,15 @@ Sub ImportCSVDirect()
     On Error GoTo ErrorHandler
 
     ' CSV-Datei auswählen
-    csvFilePath = Application.GetOpenFilename( _
-        FileFilter:="CSV Files (*.csv), *.csv", _
-        Title:="CSV-Datei auswählen")
+    #If Mac Then
+        csvFilePath = Application.GetOpenFilename( _
+            FileFilter:="CSV Files,*.csv", _
+            Title:="CSV-Datei auswählen")
+    #Else
+        csvFilePath = Application.GetOpenFilename( _
+            FileFilter:="CSV Files (*.csv), *.csv", _
+            Title:="CSV-Datei auswählen")
+    #End If
 
     If csvFilePath = "False" Then Exit Sub
 
