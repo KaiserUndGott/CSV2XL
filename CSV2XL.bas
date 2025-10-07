@@ -193,5 +193,5 @@ Sub ImportCSVDirect()
     Exit Sub
 
 ErrorHandler:
-    MsgBox "Fehler beim Import: " & Err.Description, vbCritical, "CSV2XL Fehler"
+    ' MsgBox "Fehler beim Import: " & Err.Description, vbCritical, "CSV2XL Fehler"
 End Sub
